@@ -1,0 +1,7 @@
+{
+  "name": "Kingdom Wars - 2D Pixel Strategy",
+  "description": "A polished 2D pixel art lane strategy game with real-time tactical unit spawning, castle siege warfare, elemental special abilities, boss battles, and upgrades.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

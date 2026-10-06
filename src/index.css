@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    font-family: 'Press Start 2P', 'Silkscreen', monospace;
+  }
+}
+
+.pixel-font {
+  font-family: 'Press Start 2P', monospace;
+}
+
+.silkscreen-font {
+  font-family: 'Silkscreen', monospace;
+}
+
+/* Pixel border button styles */
+.pixel-box {
+  box-shadow: 
+    inset -3px -3px 0px 0px rgba(0, 0, 0, 0.4),
+    inset 3px 3px 0px 0px rgba(255, 255, 255, 0.25),
+    0 0 0 2px #000000;
+}
+
+.pixel-box-pressed {
+  box-shadow: 
+    inset 3px 3px 0px 0px rgba(0, 0, 0, 0.5),
+    0 0 0 2px #000000;
+}
+
+.pixel-gold-border {
+  border: 3px solid #d97706;
+  box-shadow: 
+    inset -3px -3px 0px 0px #78350f,
+    inset 3px 3px 0px 0px #fde68a,
+    0 4px 0 0 #000;
+}
+
+.pixel-stone-border {
+  border: 3px solid #64748b;
+  box-shadow: 
+    inset -3px -3px 0px 0px #1e293b,
+    inset 3px 3px 0px 0px #cbd5e1,
+    0 4px 0 0 #000;
+}
+
+.pixel-red-border {
+  border: 3px solid #dc2626;
+  box-shadow: 
+    inset -3px -3px 0px 0px #7f1d1d,
+    inset 3px 3px 0px 0px #fca5a5,
+    0 4px 0 0 #000;
+}
+
+.pixel-blue-border {
+  border: 3px solid #2563eb;
+  box-shadow: 
+    inset -3px -3px 0px 0px #1e3a8a,
+    inset 3px 3px 0px 0px #93c5fd,
+    0 4px 0 0 #000;
+}
+
+/* Custom scrollbars for pixel look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #18181b;
+}
+::-webkit-scrollbar-thumb {
+  background: #52525b;
+  border: 1px solid #000;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #71717a;
+}
